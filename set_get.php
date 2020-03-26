@@ -52,7 +52,7 @@ echo $user3->__get('age'); //gausime gausime 42, nes kuriant objekta uzsetinom 4
 echo '<br>';
 $user4 = new User('Benas', 12);
 $user4->__set('age', 59); //taip galime uzsetinti ir nename ir abu parametrus kartu
-echo $user4->__get('age'); //gausime 59
+echo $user4->__get('age'); //gausime 59 *
 
 
 
